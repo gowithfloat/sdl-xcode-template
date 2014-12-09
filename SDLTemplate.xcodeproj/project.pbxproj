@@ -7,34 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9347F74E1A3797840068243B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9347F74D1A3797840068243B /* AppDelegate.m */; };
-		9347F7501A3797840068243B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9347F74F1A3797840068243B /* main.m */; };
-		9347F7521A3797840068243B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9347F7511A3797840068243B /* Images.xcassets */; };
-		9347F7551A3797850068243B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9347F7531A3797850068243B /* MainMenu.xib */; };
-		9347F7611A3797850068243B /* SDLTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9347F7601A3797850068243B /* SDLTemplateTests.m */; };
+		9347F7501A3797840068243B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9347F74F1A3797840068243B /* main.cpp */; };
+		9347F76B1A3797CC0068243B /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9347F76A1A3797CC0068243B /* SDL2.framework */; };
+		9347F76C1A3797DB0068243B /* SDL2.framework in Resources */ = {isa = PBXBuildFile; fileRef = 9347F76A1A3797CC0068243B /* SDL2.framework */; };
+		9347F76E1A3798BB0068243B /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 9347F76D1A3798BB0068243B /* Resources */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9347F75B1A3797850068243B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9347F73F1A3797840068243B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9347F7461A3797840068243B;
-			remoteInfo = SDLTemplate;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9347F7471A3797840068243B /* SDLTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9347F74B1A3797840068243B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9347F74C1A3797840068243B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9347F74D1A3797840068243B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9347F74F1A3797840068243B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9347F7511A3797840068243B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9347F7541A3797850068243B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		9347F75A1A3797850068243B /* SDLTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDLTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9347F75F1A3797850068243B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9347F7601A3797850068243B /* SDLTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLTemplateTests.m; sourceTree = "<group>"; };
+		9347F74F1A3797840068243B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9347F76A1A3797CC0068243B /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		9347F76D1A3798BB0068243B /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9347F7571A3797850068243B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9347F76B1A3797CC0068243B /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +36,8 @@
 		9347F73E1A3797840068243B = {
 			isa = PBXGroup;
 			children = (
+				9347F76A1A3797CC0068243B /* SDL2.framework */,
 				9347F7491A3797840068243B /* SDLTemplate */,
-				9347F75D1A3797850068243B /* SDLTemplateTests */,
 				9347F7481A3797840068243B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				9347F7471A3797840068243B /* SDLTemplate.app */,
-				9347F75A1A3797850068243B /* SDLTemplateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,39 +53,11 @@
 		9347F7491A3797840068243B /* SDLTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				9347F74C1A3797840068243B /* AppDelegate.h */,
-				9347F74D1A3797840068243B /* AppDelegate.m */,
-				9347F7511A3797840068243B /* Images.xcassets */,
-				9347F7531A3797850068243B /* MainMenu.xib */,
-				9347F74A1A3797840068243B /* Supporting Files */,
+				9347F74B1A3797840068243B /* Info.plist */,
+				9347F74F1A3797840068243B /* main.cpp */,
+				9347F76D1A3798BB0068243B /* Resources */,
 			);
 			path = SDLTemplate;
-			sourceTree = "<group>";
-		};
-		9347F74A1A3797840068243B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9347F74B1A3797840068243B /* Info.plist */,
-				9347F74F1A3797840068243B /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9347F75D1A3797850068243B /* SDLTemplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				9347F7601A3797850068243B /* SDLTemplateTests.m */,
-				9347F75E1A3797850068243B /* Supporting Files */,
-			);
-			path = SDLTemplateTests;
-			sourceTree = "<group>";
-		};
-		9347F75E1A3797850068243B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9347F75F1A3797850068243B /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,24 +80,6 @@
 			productReference = 9347F7471A3797840068243B /* SDLTemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9347F7591A3797850068243B /* SDLTemplateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9347F7671A3797850068243B /* Build configuration list for PBXNativeTarget "SDLTemplateTests" */;
-			buildPhases = (
-				9347F7561A3797850068243B /* Sources */,
-				9347F7571A3797850068243B /* Frameworks */,
-				9347F7581A3797850068243B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9347F75C1A3797850068243B /* PBXTargetDependency */,
-			);
-			name = SDLTemplateTests;
-			productName = SDLTemplateTests;
-			productReference = 9347F75A1A3797850068243B /* SDLTemplateTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,10 +91,6 @@
 				TargetAttributes = {
 					9347F7461A3797840068243B = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					9347F7591A3797850068243B = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 9347F7461A3797840068243B;
 					};
 				};
 			};
@@ -181,7 +108,6 @@
 			projectRoot = "";
 			targets = (
 				9347F7461A3797840068243B /* SDLTemplate */,
-				9347F7591A3797850068243B /* SDLTemplateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,15 +117,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9347F7521A3797840068243B /* Images.xcassets in Resources */,
-				9347F7551A3797850068243B /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9347F7581A3797850068243B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9347F76E1A3798BB0068243B /* Resources in Resources */,
+				9347F76C1A3797DB0068243B /* SDL2.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,39 +129,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9347F7501A3797840068243B /* main.m in Sources */,
-				9347F74E1A3797840068243B /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9347F7561A3797850068243B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9347F7611A3797850068243B /* SDLTemplateTests.m in Sources */,
+				9347F7501A3797840068243B /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9347F75C1A3797850068243B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9347F7461A3797840068243B /* SDLTemplate */;
-			targetProxy = 9347F75B1A3797850068243B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9347F7531A3797850068243B /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9347F7541A3797850068243B /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9347F7621A3797850068243B /* Debug */ = {
@@ -326,6 +217,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SDLTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -337,45 +232,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SDLTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9347F7681A3797850068243B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SDLTemplateTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDLTemplate.app/Contents/MacOS/SDLTemplate";
-			};
-			name = Debug;
-		};
-		9347F7691A3797850068243B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SDLTemplateTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDLTemplate.app/Contents/MacOS/SDLTemplate";
 			};
 			name = Release;
 		};
@@ -396,14 +259,6 @@
 			buildConfigurations = (
 				9347F7651A3797850068243B /* Debug */,
 				9347F7661A3797850068243B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9347F7671A3797850068243B /* Build configuration list for PBXNativeTarget "SDLTemplateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9347F7681A3797850068243B /* Debug */,
-				9347F7691A3797850068243B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
