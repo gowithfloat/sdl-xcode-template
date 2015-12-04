@@ -19,8 +19,6 @@ As of the time of this writing, the SDL 2 framework available for download from 
 
 After all that, you should be able to compile this project with no problem. If it succeeded, you should see a `Hello world` image in a 640x480 window for about 5 seconds.
 
-If you have any problems getting started with this repository or have an idea that could improve it, [let us know](http://floatlearning.com/contact/)!
-
 # License
 
 &copy; 2014 [Float](http://gowithfloat.com/). Shared under an [MIT license](https://en.wikipedia.org/wiki/MIT_License). See [license.md](./license.md) for details.
