@@ -1,4 +1,4 @@
-# [sdl-xcode-template](https://github.com/gowithfloat/sdl-xcode-template)
+# [sdl-xcode-template](https://github.com/gowithfloat/sdl-xcode-template) [![Build Status](https://travis-ci.org/gowithfloat/sdl-xcode-template.svg)](https://travis-ci.org/gowithfloat/sdl-xcode-template)
 
 While investigating [SDL 2.0](http://libsdl.org/) for an upcoming project, we found that there was not a good starting point for an SDL project in Xcode.
 
