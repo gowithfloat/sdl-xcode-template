@@ -8,17 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9347F7501A3797840068243B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9347F74F1A3797840068243B /* main.cpp */; };
-		9347F76B1A3797CC0068243B /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9347F76A1A3797CC0068243B /* SDL2.framework */; };
-		9347F76C1A3797DB0068243B /* SDL2.framework in Resources */ = {isa = PBXBuildFile; fileRef = 9347F76A1A3797CC0068243B /* SDL2.framework */; };
 		9347F76E1A3798BB0068243B /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 9347F76D1A3798BB0068243B /* Resources */; };
+		D78339921C121457004A8FE1 /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = D78339911C121457004A8FE1 /* Frameworks */; };
+		D78339941C12146C004A8FE1 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78339931C12146C004A8FE1 /* SDL2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9347F7471A3797840068243B /* SDLTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9347F74B1A3797840068243B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9347F74F1A3797840068243B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		9347F76A1A3797CC0068243B /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		9347F76D1A3798BB0068243B /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		D78339911C121457004A8FE1 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
+		D78339931C12146C004A8FE1 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = SDLTemplate/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9347F76B1A3797CC0068243B /* SDL2.framework in Frameworks */,
+				D78339941C12146C004A8FE1 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +37,7 @@
 		9347F73E1A3797840068243B = {
 			isa = PBXGroup;
 			children = (
-				9347F76A1A3797CC0068243B /* SDL2.framework */,
+				D78339931C12146C004A8FE1 /* SDL2.framework */,
 				9347F7491A3797840068243B /* SDLTemplate */,
 				9347F7481A3797840068243B /* Products */,
 			);
@@ -53,6 +54,7 @@
 		9347F7491A3797840068243B /* SDLTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D78339911C121457004A8FE1 /* Frameworks */,
 				9347F74B1A3797840068243B /* Info.plist */,
 				9347F74F1A3797840068243B /* main.cpp */,
 				9347F76D1A3798BB0068243B /* Resources */,
@@ -118,7 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9347F76E1A3798BB0068243B /* Resources in Resources */,
-				9347F76C1A3797DB0068243B /* SDL2.framework in Resources */,
+				D78339921C121457004A8FE1 /* Frameworks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +222,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)/SDLTemplate/Frameworks",
 				);
 				INFOPLIST_FILE = SDLTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -235,6 +238,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)/SDLTemplate/Frameworks",
 				);
 				INFOPLIST_FILE = SDLTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -261,6 +265,7 @@
 				9347F7661A3797850068243B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
