@@ -1,4 +1,4 @@
-# [sdl-xcode-template](https://github.com/floatlearning/sdl-xcode-template)
+# [sdl-xcode-template](https://github.com/gowithfloat/sdl-xcode-template)
 
 While investigating [SDL 2.0](http://libsdl.org/) for an upcoming project, we found that there was not a good starting point for an SDL project in Xcode.
 
@@ -23,4 +23,4 @@ If you have any problems getting started with this repository or have an idea th
 
 # License
 
-&copy; 2014 [Float Mobile Learning](http://floatlearning.com/). Shared under an [MIT license](https://en.wikipedia.org/wiki/MIT_License). See [license.md](./license.md) for details.
+&copy; 2014 [Float](http://gowithfloat.com/). Shared under an [MIT license](https://en.wikipedia.org/wiki/MIT_License). See [license.md](./license.md) for details.
